@@ -1,2 +1,2 @@
 # Kitty
-Kitty Game Engine
+Kitty - A Game Engine
