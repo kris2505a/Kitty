@@ -23,11 +23,12 @@ project "Kitty"
     }
 
     includedirs{
+        "%{prj.name}/src",
         "%{prj.name}/vendor/spdlog/include"
     }
 
     filter "system:windows"
-        cppdialect "C++23"
+        cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
 
@@ -76,7 +77,7 @@ project "SandBox"
     }
 
     filter "system:windows"
-        cppdialect "C++23"
+        cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
 

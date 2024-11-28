@@ -4,6 +4,9 @@
     <Filter Include="Kitty">
       <UniqueIdentifier>{9ABE870D-06D3-AFBE-CF54-531E3B28ACEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kitty\Events">
+      <UniqueIdentifier>{3EB9B576-2A1C-451B-D3A1-7DD1BFE3109E}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Kitty.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Kitty\EntryPoint.h">
       <Filter>Kitty</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kitty\Events\ApplicationEvent.h">
+      <Filter>Kitty\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kitty\Events\Event.h">
+      <Filter>Kitty\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kitty\Events\KeyEvent.h">
+      <Filter>Kitty\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kitty\Events\MouseEvent.h">
+      <Filter>Kitty\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Kitty\Log.h">
       <Filter>Kitty</Filter>

@@ -11,6 +11,9 @@
 #endif
 
 
+#define BIT(x) (1 << x)
+
+
 /*
 Explanation:
 	If engine ( KITTY_PLATFORM_WIN and KITTY_BUILD_DLL)
