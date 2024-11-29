@@ -1,3 +1,4 @@
+#include "PrecompiledHeaders.h"
 #include "Application.h"
 #include "Kitty/Events/Event.h"
 #include "Kitty/Events/ApplicationEvent.h"
@@ -16,8 +17,7 @@ namespace Kitty {
 
 	void Application::run() {
 
-		windowReSizeEvent ev(1280, 720);
-		KITTY_FATAL(ev);
+		KITTY_TRACE("Kitty Engine Running");
 		while (true);
 	}
 }

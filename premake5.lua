@@ -16,6 +16,9 @@ project "Kitty"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("binInt/" .. outputdir .. "/%{prj.name}")
+    pchheader "PrecompiledHeaders.h"
+    pchsource "Kitty/src/PrecompiledHeaders.cpp"
+
 
     files{
         "%{prj.name}/src/**.h",

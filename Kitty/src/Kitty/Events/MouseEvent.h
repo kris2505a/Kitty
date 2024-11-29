@@ -1,6 +1,5 @@
 #pragma once
 #include "Event.h"
-#include <sstream>
 
 namespace Kitty {
 	class KITTY_API mouseMovedEvent : public Event {

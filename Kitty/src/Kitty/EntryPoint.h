@@ -7,8 +7,7 @@ extern Kitty::Application* Kitty::createApplication();
 
 int main(int argc, char** argv) {
 	Kitty::Log::init();
-	KITTY_CORE_ERROR("Kitty Error");
-	KITTY_TRACE("Kitty App LOG");
+	KITTY_CORE_TRACE("Starting Kitty Engine"); 
 	auto app = Kitty::createApplication();
 	app->run();
 	delete app;

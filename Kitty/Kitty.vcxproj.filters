@@ -34,6 +34,7 @@
     <ClInclude Include="src\Kitty\Log.h">
       <Filter>Kitty</Filter>
     </ClInclude>
+    <ClInclude Include="src\PrecompiledHeaders.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kitty\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Kitty\Log.cpp">
       <Filter>Kitty</Filter>
     </ClCompile>
+    <ClCompile Include="src\PrecompiledHeaders.cpp" />
   </ItemGroup>
 </Project>
